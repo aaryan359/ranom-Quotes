@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Quotes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 class="logo">Random Quotes</h1>
+        <div class="details">
+            <div class="search"><a href="#"> 
+                <input type="text"> Search</a></div>
+            
+           <div class="contacts"><a href="#">Contact Us</a></div>
+          
+        </div>
+    </header>
+    <main class="main">
+        <div class="quotes">
+            <p id="quote">Loading </p>
+            <p id="name"></p>
+        </div>
+        <div class="btns">
+            <button id="like"  onclick="likeQuote()">Like</button>
+            <button onclick="shareQuote()">Share</button>
+            <button onclick="tweetQuote()">Tweet</button>
+            <button onclick="getQuotes()">Next</button>
+        </div>
+    </main>
+    <footer>
+        <p>This Website made by simple html and css and js by aarayan </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
